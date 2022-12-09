@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(45deg,rgb(77,77,77),rgb(58,58,58));
+}
+
+header{
+    position: static;
+}
+
+main li img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    margin: auto;
+}
+main ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:100px;
+    width: 95%;
+    margin: auto;
+    padding-left: 0;
+}
+
+.card{
+    display: flex;
+    background: rgb(245, 243, 160);
+    color:rgb(58,58,58);
+    overflow: hidden;
+    border-radius: 15px;
+    width: 40%;
+}
+.card:hover{
+    box-shadow: 14px 14px 2px rgb(15, 15, 1) ;
+}
+.card:last-child{
+    width: 88%;
+    margin-bottom: 45px;
+}
+.card:last-child a{
+    position: absolute;
+  top: 90px;
+ left: 85%;
+}
+.item-content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.actions{
+    position: relative;
+
+}
+.actions a{
+    position: absolute;
+    left: 55%;
+    padding: 2.5px;
+}
+.actions a:hover{
+     box-shadow: 4px 4px 2px rgb(58,58,58) ;
+ 
+}
+
