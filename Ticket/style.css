@@ -1,0 +1,46 @@
+*{
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+
+}
+button{
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background: rgb(245, 243, 160);
+    color: rgba(51, 47, 47,0.8);
+    font-weight: bold;
+}
+label{
+    color: gray;
+    font-weight: bold;
+    text-shadow: 1px  1px;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 25px;
+    text-align: center;
+    margin: 100px auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 45%;
+    padding: 25px;
+}
+#city_label_origin{
+    display: none;
+}
+
+#city_label_des{
+    display: none;
+}
+
+body{
+    background:rgba(51, 47, 47,0.8);
+}
+form{
+    background: rgb(250, 250, 250);
+}

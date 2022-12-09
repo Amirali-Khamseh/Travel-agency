@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPlane Ticket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="form-data">
+        <label for="">
+            Select the origin :
+            <select name="" id="from_country">
+
+            </select>
+        </label>
+
+        <button id="next_city">Find me the City</button>
+
+
+
+        <label for="" id="city_label_origin">
+            Select the origin City :
+            <select name="" id="from_city">
+
+            </select>
+        </label>
+        <!-- Destination -->
+
+        <label for="">
+            Select the Destination :
+            <select name="" id="des_country">
+
+            </select>
+        </label>
+
+        <button id="des_next_city">Find me the City</button>
+
+
+
+        <label for="" id="city_label_des">
+            Select the Destination City :
+            <select name="" id="des_city">
+
+            </select>
+        </label>
+
+        <label for="">
+            Departure Date:
+        </label>
+        <input type="date" name="" id="departure-date">
+        <label id="return-date-label">Return Date:</label>
+        <input type="date" name="" id="return-date">
+
+        <button id="oneway"> one-way </button>
+        <button id="round-trip"> round-trip </button>
+        </label>
+        <button class="submit">
+            Search
+        </button>
+
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
