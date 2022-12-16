@@ -4,7 +4,7 @@
 }
 #hero-image{
     height: 750px;
-    background: url('/Images/ocean.jpg');
+    background: url('Images/ocean.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -27,7 +27,9 @@
     
    
 }
-
+.hero-text a{
+    color: var(--base-color);
+}
 .hero-text>a{
     border: 1px solid rgb(245, 243, 160) ;
     padding: 10px;
